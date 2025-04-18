@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+# .env # Removed as .env is no longer used for secrets
+
+# Temporary files and logs
+temp_images/
+*.log
+*.csv
+dummy_input.png
+dummy_output.png
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: Exclude waifu2x executable if you don't want to commit it
+waifu2x-ncnn-vulkan.exe
+
+# Model files and related binaries
+*.pb
+*.dll
+models/
+models-*/

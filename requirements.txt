@@ -1,0 +1,9 @@
+easyocr
+opencv-python
+mss
+pandas
+numpy
+PyAutoGUI
+psutil
+requests
+# python-dotenv # Removed as .env loading is no longer needed
